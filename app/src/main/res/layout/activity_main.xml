@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4FF"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp">
+
+        <!-- Titre du formulaire -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📚 Inscription Bibliothèque"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Champ Prénom -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prénom"
+            android:textStyle="bold"
+            android:textColor="#3949AB"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/etPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Youssef"
+            android:inputType="textPersonName"
+            android:background="#EEEEEE"
+            android:padding="10dp"/>
+
+        <!-- Champ Nom de famille -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom de famille"
+            android:textStyle="bold"
+            android:textColor="#3949AB"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/etNomFamille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : BENALI"
+            android:inputType="textCapCharacters"
+            android:background="#EEEEEE"
+            android:padding="10dp"/>
+
+        <!-- Champ E-mail -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse E-mail"
+            android:textStyle="bold"
+            android:textColor="#3949AB"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/etMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : youssef@example.com"
+            android:inputType="textEmailAddress"
+            android:background="#EEEEEE"
+            android:padding="10dp"/>
+
+        <!-- Champ Numéro de téléphone -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numéro de téléphone"
+            android:textStyle="bold"
+            android:textColor="#3949AB"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/etTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : +212612345678"
+            android:inputType="phone"
+            android:background="#EEEEEE"
+            android:padding="10dp"/>
+
+        <!-- Champ Quartier / Rue -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quartier / Rue"
+            android:textStyle="bold"
+            android:textColor="#3949AB"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/etQuartier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Hay Mohammadi, Rue 5"
+            android:inputType="textPostalAddress"
+            android:background="#EEEEEE"
+            android:padding="10dp"/>
+
+        <!-- Bouton d'inscription -->
+        <Button
+            android:id="@+id/btnInscrire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S'inscrire"
+            android:backgroundTint="#1A237E"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:padding="14dp"/>
+
+    </LinearLayout>
+</ScrollView>

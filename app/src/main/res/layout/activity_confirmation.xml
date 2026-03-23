@@ -1,0 +1,72 @@
+<!-- activity_confirmation.xml -->
+<!-- Écran de confirmation d'inscription -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F0F4FF">
+
+    <!-- Icône de succès -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✅"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Titre -->
+    <TextView
+        android:id="@+id/tvTitreConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscription confirmée !"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#1A237E"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Carte de récapitulatif -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vos informations"
+            android:textStyle="bold"
+            android:textColor="#3949AB"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Zone de texte récapitulatif -->
+        <TextView
+            android:id="@+id/tvFicheAdherent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#212121"
+            android:lineSpacingExtra="6dp"/>
+
+    </LinearLayout>
+
+    <!-- Bouton Retour au formulaire -->
+    <Button
+        android:id="@+id/btnRevenir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="← Retour au formulaire"
+        android:backgroundTint="#E8EAF6"
+        android:textColor="#1A237E"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:padding="14dp"/>
+
+</LinearLayout>
