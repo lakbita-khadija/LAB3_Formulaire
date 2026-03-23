@@ -20,6 +20,13 @@ Implémenter une navigation entre deux activités Android en transmettant des do
 - Retour au formulaire via `finish()`
 
 ---
+## 🎥 Démonstration
+
+
+
+https://github.com/user-attachments/assets/49153edd-738d-473e-978a-68282fb33aad
+
+
 
 ## 🗂️ Structure du projet
 
